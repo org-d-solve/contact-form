@@ -1,0 +1,19 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "Form-to-mail backend for static sites on Cloudflare Pages: Turnstile, honeypot, Zoho Mail API.",
+  "type": "module",
+  "license": "MIT",
+  "exports": "./src/index.ts",
+  "types": "./src/index.ts",
+  "bin": {
+    "contact-form-check": "./src/check.mjs"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
